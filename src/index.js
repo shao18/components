@@ -1,2 +1,3 @@
 import log from "test";
-module.exports = {log};
+
+module.exports = { log };
