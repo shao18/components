@@ -1,0 +1,14 @@
+
+.board__cell{
+  background-color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.board__cell.board__cell_color_white{
+  background-color: white;
+}
+
+.board__cell.board__cell_color_black{
+  background-color: black;
+}
