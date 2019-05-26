@@ -1,14 +1,23 @@
 
 .board__cell{
+  --black : black;
+  --white : white;
+  --size  : 50px;  
   background-color: white;
+  background-color: var(--white);
   text-align: center;
   vertical-align: middle;
+  border: 1px solid var(--black);
+  width: var(--size);
+  height: var(--size);
 }
 
 .board__cell.board__cell_color_white{
   background-color: white;
+  background-color: var(--white);
 }
 
 .board__cell.board__cell_color_black{
   background-color: black;
+  background-color: var(--black);
 }

@@ -1,0 +1,7 @@
+.board__th{
+
+}
+
+.board__th.board__th_reverse{
+  transform: rotate(180deg);
+}

@@ -1,0 +1,14 @@
+.board__alpha{
+
+}
+
+.board__alpha.board__alpha_reverse{
+  transform: rotate(180deg);
+}
+.board__alpha-corner{
+
+}
+
+.board__alpha-row{
+
+}
