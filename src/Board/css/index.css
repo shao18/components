@@ -1,0 +1,13 @@
+.board{
+   border-collapse: collapse;
+   table-layout: fixed;
+}
+
+.board.board_reverse{
+  transform: rotate(180deg);
+}
+.board .board__cell{
+   --black: #101010;
+   --white: yellow;
+   --size: 30px;
+}
