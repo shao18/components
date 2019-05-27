@@ -10,14 +10,19 @@
   border: 1px solid var(--black);
   width: var(--size);
   height: var(--size);
+  font-size: var(--size);
+  font-family: "nishiki-teki";
+  overflow: hidden;
 }
 
 .board__cell.board__cell_color_white{
   background-color: white;
   background-color: var(--white);
+  color: var(--black);
 }
 
 .board__cell.board__cell_color_black{
   background-color: black;
   background-color: var(--black);
+  color: var(--white);
 }

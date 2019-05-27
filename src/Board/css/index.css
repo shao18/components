@@ -1,5 +1,6 @@
 .board{
    border-collapse: collapse;
+   table-layout: fixed;
 }
 
 .board.board_reverse{

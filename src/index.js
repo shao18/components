@@ -1,3 +1,5 @@
-import log from "test";
+import Panel from "Panel";
 
-module.exports = { log };
+module.exports = {
+  Panel
+};
